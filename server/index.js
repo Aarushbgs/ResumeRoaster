@@ -8,7 +8,9 @@ require("dotenv").config();
 const app = express();
 const PORT = 5000;
 
-
+app.get('/', (req, res) => {
+    res.send('Hii..I am Aarush');
+  });
 
 console.log("API Key Loaded:", process.env.API_KEY);
 
