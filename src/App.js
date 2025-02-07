@@ -27,7 +27,7 @@ const FileUpload = () => {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:5000/upload-file", {
+      const response = await fetch("https://resumeroaster-ewwo.onrender.com/upload-file", {
         method: "POST",
         body: formData,
       });
