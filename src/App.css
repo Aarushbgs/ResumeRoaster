@@ -103,6 +103,22 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.loading-emoji {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
 
 @media screen and (max-width: 768px) {
     .dotted-box {
@@ -152,3 +168,4 @@
         font-size: 0.9rem;
     }
 }
+   
