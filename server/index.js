@@ -51,13 +51,7 @@ app.post("/upload-file", upload.single("file"), async (req, res) => {
           fileUri: uploadResponse.file.uri,
         },
       },
-      { text: " Alright, let’s roast this resume like it’s a marshmallow over a campfire—crispy, golden, and a little burnt! Highlight every cringe-worthy buzzword, overinflated achievement, and formatting disaster. Keep it light, witty, and brutally honest—because if this resume were a superhero, its power would be invisibility to recruiters!"
-
-
-
-
-
-
+      { text:  "Give a short, funny roast of this resume in 3-4 lines. Be witty but concise."
  },
     ]);
 
