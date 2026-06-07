@@ -27,7 +27,7 @@ const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const fileManager = new GoogleAIFileManager(process.env.API_KEY);
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
+  model: "gemini-2.5-flash",
 });
 
 app.post("/upload-file", upload.single("file"), async (req, res) => {
