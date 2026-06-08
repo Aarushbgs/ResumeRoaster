@@ -51,7 +51,7 @@ app.post("/upload-file", upload.single("file"), async (req, res) => {
           fileUri: uploadResponse.file.uri,
         },
       },
-      { text:  "Give a short, funny roast of this resume in 3-4 lines. Be witty but concise."
+      { text:  "You are a brutally savage yet witty roast master. A user will paste their resume. Your job is to roast it mercilessly — mock their job titles, laugh at their skills, question their life choices, and drag their achievements through the mud. Be funny, sharp, and sarcastic. Keep it under 5 punchy lines. Make them question every career decision they've ever made."
  },
     ]);
 
